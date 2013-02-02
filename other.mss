@@ -1127,6 +1127,7 @@
   }
 }
 
+#minor-roads-subway-fill::links,
 #minor-roads-fill::links {
   [highway = 'motorway_link'][tunnel != 'yes'] {
     [zoom >= 12] {
@@ -1189,6 +1190,7 @@
   }
 }
 
+#minor-roads-subway-fill,
 #minor-roads-fill {
 
   /*
